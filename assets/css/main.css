@@ -80,7 +80,7 @@ p.footer{
 nav{
     display:flex;
     background-color:var(--lightgreen);
-    border-radius:0% 0% 10% 0%;
+    border-radius:0% 0% 40% 0%;
     height:102px;
     min-width:100%;
    
@@ -135,7 +135,7 @@ li a{
 .dropdown:hover .dropdown-content {
     display: block;
    background-color:var(--white-primary);
-   height:30%;
+   height:100%;
    position:relative;
    top:3%;
    
@@ -287,3 +287,93 @@ h2#nieuws:hover{
 div.info p:hover{
     font-weight:bold;
 }
+
+/*mobiele versie*/
+@media screen and (max-width: 600px) {
+   article, #search, #bar {
+      display:none;
+    }
+    #logo{
+        width:200px;
+        height:100px;
+        position:absolute;
+        top:4%;
+        left:1%;
+        
+
+    }
+    div.greenblock{
+        display:flex;
+        flex-direction:column;
+    }
+    h1{
+        text-align:center;
+        width:100%;
+        padding-top:2%;
+        margin:0px;
+        font-size:20pt;
+         
+
+    }
+    h2#Nazareth{
+        margin-left:12%;
+        font-size:20pt;
+    }
+    nav{
+        height:10%;
+    }
+    li a {
+        font-size:8pt;
+        margin:0;
+
+    }
+    ul {
+        margin-left:4%;
+    }
+    li{
+margin:0;
+    }
+    div.info{
+    margin-left:4%;
+    width:100%;
+    margin-top:43%;
+}
+div.info p {
+    font-size:8pt;
+}
+#school{
+width:92%;
+height:198px;
+position:absolute;
+top:25%;
+left:-16%;
+}
+.green{
+    font-size:10pt;
+}
+.dropdown:hover .dropdown-content {
+    height:82%;
+    width:100%;
+    font-size:7pt;
+}
+footer{
+    margin-top:1%;
+    height:6%;
+}
+p.footer{
+   padding-left:4%;
+   margin-left:0;
+   font-size:6pt;
+}
+/*hover effecten mobiel*/
+li a:hover{
+    color:var(--yellow);
+    font-weight:bold;
+    font-family:var(--t-tertiary);
+    font-size:8pt;
+}
+
+div.info p:hover{
+    font-weight:bold;
+}
+  }
