@@ -78,6 +78,7 @@ p.footer{
 }
 /*navigatie*/
 nav{
+    display:flex;
     background-color:var(--lightgreen);
     border-radius:0% 0% 10% 0%;
     height:102px;
@@ -151,6 +152,32 @@ li a{
     padding:2%;
     z-index:2;
 }
+/*searchbalk*/
+#searchbar{
+    /*position:absolute;*/
+    margin-left:6.5%;
+    margin-top:3%;
+    display:flex;
+    align-content:center;
+    width:20%;
+    /*right:15%;*/
+    /*top: 18%;*/
+}
+#search{
+height:40%;
+width: 10%;
+background-color:var(--black);
+}
+#bar{
+    width:50%;
+    height:40%;
+    background-color:var(--darkgrey 60%);
+}
+.size {
+    color:var(--white-primary);
+    font-size:12pt;
+    
+}
 /*main*/
 main{
     display:flex;
@@ -204,7 +231,7 @@ hr.grey{
 background-color:var(--lightgrey);
 width:67px;
 position:absolute;
-top:33%;
+top:35%;
 
 }
 hr.lightgrey{
