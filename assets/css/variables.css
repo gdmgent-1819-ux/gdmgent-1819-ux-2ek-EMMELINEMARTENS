@@ -6,15 +6,15 @@
   /**
    * Colour palette
    */
-   --white-primary: #ffffff;
+  --white-primary: #ffffff;
   --green: #2B580C;
-  --lightgreen:#AFA939;
-  --yellow:#FDEF96;
-  --transparantgreen:#F4FFD5 (40%);
-  --black:#000000;
-  --darkgrey:#707070;
-  --lightgrey:#707070 (20%);
-  --linkcolor:#0025A0;
+  --lightgreen: #AFA939;
+  --yellow: #FDEF96;
+  --transparantgreen: #F4FFD5 (40%);
+  --black: #000000;
+  --darkgrey: #707070;
+  --lightgrey: #707070 (20%);
+  --linkcolor: #0025A0;
 
   /**
    * Layout
@@ -24,8 +24,8 @@
   /**
    * Typography
    */
-  --t-primary:  'fatstack_bbregular' ;
-  --t-secondary:'pt_sans_captionregular';
+  --t-primary: 'fatstack_bbregular';
+  --t-secondary: 'pt_sans_captionregular';
   --t-tertiary: 'Chalkduster';
 
   --t-headline: var(--t-primary);
@@ -33,5 +33,3 @@
   --t-body: var(--t-secondary);
   --t-code: var(--t-tertiary);
 }
-
-

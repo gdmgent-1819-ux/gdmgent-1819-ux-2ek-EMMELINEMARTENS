@@ -1,0 +1,66 @@
+form {
+    background-color: var(--black);
+    width: 1397px;
+    height: 651px;
+}
+
+div.divcontainer {
+    width: 25%;
+    display: inline-block;
+    height: 100%;
+    margin-left: 3%;
+
+}
+
+.formnames {
+    font-family: var(--t-tertiary);
+    font-size: 20pt;
+    color: var(--white-primary);
+    width: 100%;
+}
+
+.formfields {
+    width: 293px;
+    height: 53px;
+}
+
+.greenie {
+    font-family: var(--t-tertiary);
+    font-size: 30pt;
+    color: var(--lightgreen);
+    text-align: center;
+    margin-left: -10%;
+}
+
+.buttons {
+    background-color: var(--lightgreen);
+    color: var(--white-primary);
+    font-size: 20pt;
+    font-family: var(--t-tertiary);
+    border: solid 2px var(--white-primary);
+    border-radius: 25%;
+    padding: 2%;
+    margin-left: 80%;
+    margin-top: -5%;
+
+
+}
+
+.opmerking {
+    text-align: center;
+    margin-left: 40%;
+    margin-bottom: 2%;
+}
+
+#opmerkingen {
+    width: 450px;
+    height: 50px;
+    padding-bottom: 100%;
+
+}
+
+div.formtags {
+    margin-top: 6%;
+
+
+}

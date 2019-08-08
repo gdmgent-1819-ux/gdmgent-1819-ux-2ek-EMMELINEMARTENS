@@ -3,7 +3,7 @@
     font-weight: 400;
     color: #333;
     margin: 1rem 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .sg-subtitle {
@@ -13,5 +13,87 @@
     color: #666;
     text-transform: uppercase;
     margin: 2rem 0 .5rem 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/*formulier opmaak*/
+form {
+    background-color: var(--black);
+    width: 1397px;
+    height: 651px;
+}
+
+div.divcontainer {
+    width: 25%;
+    display: inline-block;
+    height: 100%;
+    margin-left: 3%;
+
+}
+
+.formnames {
+    font-family: var(--t-tertiary);
+    font-size: 20pt;
+    color: var(--white-primary);
+    width: 100%;
+}
+
+.formfields {
+    width: 293px;
+    height: 53px;
+}
+
+.greenie {
+    font-family: var(--t-tertiary);
+    font-size: 30pt;
+    color: var(--lightgreen);
+    text-align: center;
+    margin-left: -10%;
+}
+
+/*button formulier opmaak*/
+.buttons {
+    background-color: var(--lightgreen);
+    color: var(--white-primary);
+    font-size: 20pt;
+    font-family: var(--t-tertiary);
+    border: solid 2px var(--white-primary);
+    border-radius: 25%;
+    padding: 2%;
+    margin-left: 80%;
+    margin-top: -5%;
+
+
+}
+
+.opmerking {
+    text-align: center;
+    margin-left: 40%;
+    margin-bottom: 2%;
+}
+
+#opmerkingen {
+    width: 450px;
+    height: 50px;
+    padding-bottom: 100%;
+
+}
+
+div.formtags {
+    margin-top: 6%;
+
+
+}
+
+div.img {
+    width: 100%;
+    height: 50%;
+}
+
+img {
+    width: 20%;
+}
+
+#verzend {
+    margin-top: 2%;
 }
