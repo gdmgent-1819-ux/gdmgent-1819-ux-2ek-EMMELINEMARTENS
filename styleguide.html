@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,24 +9,86 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/styleguide.css">
 </head>
+
 <body>
-<div class="container">
-    <h1 class="sg-title">Digital styleguide</h1>
-    <h2 class="sg-subtitle">Kleuren</h2>
-    #ffffff
-    #2B580C
-    #AFA939;
-    #FDEF96;
-    #F4FFD5 (40%);
-    #000000;
-    #707070;
-    #0025A0;
-    <h2 class="sg-subtitle">Typografie</h2>
-    font-family: 'fatstack_bbregular'
-    font-family: 'pt_sans_captionregular'
-    <h2 class="sg-subtitle">Knopppen</h2>
-    <h2 class="sg-subtitle">Formulier</h2>
-    <h2 class="sg-subtitle">Componenten</h2>
-</div>
+    <div class="container">
+        <h1 class="sg-title">Digital styleguide</h1>
+        <h2 class="sg-subtitle">Kleuren</h2>
+        #ffffff
+        #2B580C
+        #AFA939;
+        #FDEF96;
+        #F4FFD5 (40%);
+        #000000;
+        #707070;
+        #0025A0;
+        <h2 class="sg-subtitle">Typografie</h2>
+        font-family: 'fatstack_bbregular'
+        font-family: 'pt_sans_captionregular'
+        font-family:'Chalkduster'
+        <h2 class="sg-subtitle">Knoppen</h2>
+        <button type="submit" class="buttons" id="verzend">verzenden</button>
+        <h2 class="sg-subtitle">Formulier</h2>
+        <div>
+            <form action="/action_page.php">
+                <div class="divcontainer">
+                    <div class="formtags">
+                        <label for="firstname" class="formnames">Naam van kind</label>
+                        <input type="text" class="formfields" id="NaamvanKind">
+                    </div>
+                    <div class="formtags">
+                        <label for="birth" class="formnames">geboortedatum</label>
+                        <input type="text" class="formfields">
+                    </div>
+                    <div class="formtags">
+                        <label for="name" class="formnames">Uw naam</label>
+                        <input type="text" class="formfields">
+                    </div>
+                    <div class="formtags">
+                        <label for="adres" class="formnames">Uw adres</label>
+                        <input type="text" class="formfields">
+                    </div>
+                </div>
+                <div class="divcontainer">
+                    <div class="formtags">
+                        <label for="email" class="formnames">Uw e-mail</label>
+                        <input type="email" class="formfields">
+                    </div>
+                    <div class="formtags">
+                        <label for="tel" class="formnames">Uw telefoonnummer</label>
+                        <input type="tel" class="formfields">
+                    </div>
+                    <div class="formtags">
+                        <label for="code" class="formnames">Geef de code in</label>
+                        <h1 class="greenie">Fqlw</h1>
+                        <input type="text" class="formfields">
+                    </div>
+                </div>
+                <div class="divcontainer">
+
+
+                    <div class="formtags">
+                        <label for="textarea" class="formnames opmerking">opmerkingen</label>
+                        <input type="text" id="opmerkingen">
+                    </div>
+                    <button type="submit" class="buttons">verzenden</button>
+                </div>
+            </form>
+        </div>
+
+        <h2 class="sg-subtitle">Componenten</h2>
+        <div class="img">
+            <img src="assets/images/leerling.jpg" alt="leerling">
+            <img src="assets/images/lunch.jpg" alt="lunch">
+            <img src="assets/images/ouderraad.jpg" alt="ouderraad">
+            <img src="assets/images/schoolmaps.png" alt="locatie">
+            <img src="assets/images/together.jpg" alt="voorOuders">
+            <img src="assets/images/toddler.jpg" alt="kleuter">
+            <img src="assets/images/therules.jpg" alt="schoolreglement">
+            <img src="assets/images/search-solid.svg" alt="search-solid">
+            <img src="assets/images/schoolkid.jpg" alt="leerling2">
+        </div>
+    </div>
 </body>
+
 </html>
